@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+       padding: 0;
+}
+body{    
+        min-height: 100vh;
+        background-image: url(assets/bg.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+#site-info{
+        background-color: #B85752;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+}
+#site-info p{
+       color: aliceblue;
+       text-decoration: none; 
+       font-size: 1rem;
+   }
+#site-info p a{
+        font-size: 1rem;
+        color: aliceblue;
+        text-decoration: none;
+}
+#college-info{
+        background-color: #F2C38B;
+        padding: 2.75rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+   }
+#college-info img{
+        float: left;
+        width: 35%;
+        height: auto;
+        margin-left: 22%;
+   }
+#college-info h1{
+      color: #74353F;
+      font-size: 3rem;
+      text-align: center;
+      text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.116);
+}
+#college-info p{
+       font-size: 1.75rem;
+   }
+#navbar ul{
+       background-color: #F8F9FA;
+       display: flex;
+       justify-content: center;
+       gap: 1.5rem;
+       padding: 1rem 1rem;
+   }
+#navbar ul li{
+       list-style: none;
+
+}
+#navbar ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+        cursor: pointer;
+        color: rgb(100, 100, 100);
+}
+#navbar ul li a:hover{
+    color: #000;
+}
+
+.college-photo{
+    width: 100%;
+}
+.college-photo img{
+        width: 80%;
+        max-width:100%;
+        height: auto;
+        /*	border: 2px solid; */
+        border-radius: 5rem 0 2rem 0;	
+        display: block;
+        margin: 0 auto;	
+}
+.prinicipal-message{
+        padding: 3rem;
+        text-align: center;
+}
+.pricipal{
+        width: 80%;
+        display: flex;
+        height: auto;
+        margin: 0 auto;
+        padding: 0.5rem;
+}
+.pricipal img{	
+        width: 20rem;
+        height: 80%;
+}
+.messege p{
+        font-size: 1.25rem;
+        padding: 0 1rem;
+        line-height: 140%;
+}
+.messege .name{
+        text-align: right;
+}
+.courses{
+        padding: 3rem;
+        text-align: center;
+}
+#courses-container {
+        max-width: 100%;
+        width: 80%;
+        margin: 0 auto;
+}
+
+#courses {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+
+.course {  
+        width: 15rem;
+        height: 15rem;
+        padding: 2.8rem 1.5rem;
+        background: #fff;
+        border: 2px solid #022d3b;
+        display: grid;
+        place-content: center;
+}
+.course__image__container{
+        display: grid;
+        place-content: center;
+        padding: 2rem 1.5rem;
+
+}
+.course img{
+        position: relative;
+        max-width: 80%; 
+        left: 10%;
+        height: auto; 
+        transition: transform 0.5s ease;
+}
+.course img:hover{
+        transform: rotate(90deg);
+}
+.course p{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0.2rem;
+        font-size: 1rem;
+        font-weight: 600;
+}
+.syllabus-link{
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 0.75rem;
+        background: #f0f3f4;
+        padding: 1.5rem .75rem;
+}
+.syllabus-link p{
+        font-size: 1.2rem;
+}
+.bg-white{
+        background-color: #fff;
+}
+
+.background-image{
+        width: 100%;
+        height: 300px;
+        background-image: url(assets/background-image.jpg);
+        background-size: 33% 300px;
+        background-repeat: repeat-x;
+        display: grid;
+        place-content: center;
+}
+/* :root {
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
+
+        color-scheme: light dark;
+        color: rgba(255, 255, 255, 0.87);
+        background-color: #242424;
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+} */
+footer{
+        width: calc(100%-3rem);
+        background-color: #242424;
+        padding: 1.5rem;
+}
+.footer-container{
+        display: flex;
+        justify-content: space-around;
+}
+.footer-section > h3{
+        color: #fff;
+        position: relative;
+}
+.footer-section h3::before{
+        content: '';
+        width: 5px;
+        height: 2rem;
+        background-color: #ffffff;
+        position: absolute;
+        top: -6px;
+        left: -9px;
+}
+.footer-section > p{
+        color: #F2C38B;
+        margin: 10px 0;
+}
+.footer-section li{
+        list-style: none;
+        margin: 10px 0;
+}
+.footer-section a{
+        margin: 10px 0;
+        color: orangered;
+        text-decoration: none;
+}
+.text-center{
+        text-align: center;
+        color: #fff;
+        margin-top: 1rem;
+}
+.text-center a{
+        color: orangered;
+        text-decoration: none;
+}
